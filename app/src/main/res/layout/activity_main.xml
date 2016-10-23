@@ -7,52 +7,40 @@
     tools:context="com.suriosity.learnhindi.MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
     <TextView
         style="@style/categories"
         android:text="@string/numbers" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
     <TextView
         style="@style/categories"
         android:text="@string/days" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
     <TextView
         style="@style/categories"
         android:text="@string/relationships" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
     <TextView
         style="@style/categories"
         android:text="@string/fruits_and_vegetables" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
     <TextView
         style="@style/categories"
         android:text="@string/pronouns" />
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000"/>
+        style="@style/border"/>
 
 </LinearLayout>
