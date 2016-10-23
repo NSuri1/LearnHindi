@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
     final String NOT_FOUND = "View not found";
 
@@ -123,10 +123,10 @@ public class MainActivity extends AppCompatActivity{
 
     }
 
-    public void changeView(int id){
+    public void changeView(int id) {
         Intent i;
 
-        switch (id){
+        switch (id) {
             case R.id.animals_and_insects_category:
                 i = new Intent(this, AnimalsAndInsects.class);
                 startActivity(i);

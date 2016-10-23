@@ -32,22 +32,22 @@
             android:label="@string/pronouns" />
         <activity
             android:name=".AnimalsAndInsects"
-            android:label="@string/animals_and_insects"/>
+            android:label="@string/animals_and_insects" />
         <activity
             android:name=".BodyParts"
-            android:label="@string/body_parts"/>
+            android:label="@string/body_parts" />
         <activity
             android:name=".ConditionAndColors"
-            android:label="@string/condition_and_color"/>
+            android:label="@string/condition_and_color" />
         <activity
             android:name=".Government"
-            android:label="@string/government_and_business"/>
+            android:label="@string/government_and_business" />
         <activity
             android:name=".Nature"
-            android:label="@string/nature"/>
+            android:label="@string/nature" />
         <activity
             android:name=".Miscellaneous"
-            android:label="@string/miscellaneous"/>
+            android:label="@string/miscellaneous" />
         <activity
             android:name=".Verbs"
             android:label="@string/verbs"></activity>

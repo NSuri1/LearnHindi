@@ -4,108 +4,97 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.suriosity.learnhindi.MainActivity">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
 
-    <TextView
-        style="@style/border"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/animals_and_insects_category"
-        style="@style/categories"
-        android:text="@string/animals_and_insects" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/animals_and_insects_category"
+            style="@style/categories"
+            android:text="@string/animals_and_insects" />
 
-    <TextView
-        android:id="@+id/body_parts_category"
-        style="@style/categories"
-        android:text="@string/body_parts" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/body_parts_category"
+            style="@style/categories"
+            android:text="@string/body_parts" />
 
-    <TextView
-        android:id="@+id/condition_and_color_category"
-        style="@style/categories"
-        android:text="@string/condition_and_color" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/condition_and_color_category"
+            style="@style/categories"
+            android:text="@string/condition_and_color" />
 
-    <TextView
-        android:id="@+id/government_and_business_category"
-        style="@style/categories"
-        android:text="@string/government_and_business" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/government_and_business_category"
+            style="@style/categories"
+            android:text="@string/government_and_business" />
 
-    <TextView
-        android:id="@+id/nature_category"
-        style="@style/categories"
-        android:text="@string/nature" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/nature_category"
+            style="@style/categories"
+            android:text="@string/nature" />
 
-    <TextView
-        android:id="@+id/fruits_and_vegetables_category"
-        style="@style/categories"
-        android:text="@string/fruits_and_vegetables" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/fruits_and_vegetables_category"
+            style="@style/categories"
+            android:text="@string/fruits_and_vegetables" />
 
-    <TextView
-        android:id="@+id/numbers_category"
-        style="@style/categories"
-        android:text="@string/numbers" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/numbers_category"
+            style="@style/categories"
+            android:text="@string/numbers" />
 
-    <TextView
-        android:id="@+id/pronouns_category"
-        style="@style/categories"
-        android:text="@string/pronouns" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/pronouns_category"
+            style="@style/categories"
+            android:text="@string/pronouns" />
 
-    <TextView
-        android:id="@+id/verbs_category"
-        style="@style/categories"
-        android:text="@string/verbs" />
+        <TextView style="@style/border" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView
+            android:id="@+id/verbs_category"
+            style="@style/categories"
+            android:text="@string/verbs" />
 
-    <TextView
-        android:id="@+id/relationships_category"
-        style="@style/categories"
-        android:text="@string/relationships" />
-    <TextView
-        style="@style/border"/>
+        <TextView style="@style/border" />
 
-    <TextView
-        android:id="@+id/days_category"
-        style="@style/categories"
-        android:text="@string/days" />
+        <TextView
+            android:id="@+id/relationships_category"
+            style="@style/categories"
+            android:text="@string/relationships" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView style="@style/border" />
 
-    <TextView
-        android:id="@+id/miscellaneous_category"
-        style="@style/categories"
-        android:text="@string/miscellaneous" />
+        <TextView
+            android:id="@+id/days_category"
+            style="@style/categories"
+            android:text="@string/days" />
 
-    <TextView
-        style="@style/border"/>
+        <TextView style="@style/border" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/miscellaneous_category"
+            style="@style/categories"
+            android:text="@string/miscellaneous" />
+
+        <TextView style="@style/border" />
+
+    </LinearLayout>
 </ScrollView>
