@@ -10,36 +10,46 @@
         style="@style/border"/>
 
     <TextView
+        android:id="@+id/numbers_category"
         style="@style/categories"
-        android:text="@string/numbers" />
+        android:text="@string/numbers"
+        android:onClick="openNumbersView"/>
 
     <TextView
         style="@style/border"/>
 
     <TextView
+        android:id="@+id/days_category"
         style="@style/categories"
-        android:text="@string/days" />
+        android:text="@string/days"
+        android:onClick="openDaysView"/>
 
     <TextView
         style="@style/border"/>
 
     <TextView
+        android:id="@+id/relationships_category"
         style="@style/categories"
-        android:text="@string/relationships" />
+        android:text="@string/relationships"
+        android:onClick="openRelationshipsView"/>
 
     <TextView
         style="@style/border"/>
 
     <TextView
+        android:id="@+id/fruits_and_vegetables_category"
         style="@style/categories"
-        android:text="@string/fruits_and_vegetables" />
+        android:text="@string/fruits_and_vegetables"
+        android:onClick="openFruitsAndVegetablesView"/>
 
     <TextView
         style="@style/border"/>
 
     <TextView
+        android:id="@+id/pronouns_category"
         style="@style/categories"
-        android:text="@string/pronouns" />
+        android:text="@string/pronouns"
+        android:onClick="openPronounsView"/>
     <TextView
         style="@style/border"/>
 
