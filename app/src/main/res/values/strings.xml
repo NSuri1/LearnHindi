@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Learn Hindi</string>
+    <string name="days">Days</string>
+    <string name="numbers">Numbers</string>
+    <string name="relationships">Relationships</string>
+    <string name="fruits_and_vegetables">Fruits and Vegetables</string>
+    <string name="pronouns">Pronouns</string>
+
 </resources>
