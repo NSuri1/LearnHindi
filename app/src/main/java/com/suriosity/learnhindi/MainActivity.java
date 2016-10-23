@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 break;
             default:
-                Log.i("Main Activity", NOT_FOUND);
+                Log.e("Main Activity", NOT_FOUND);
         }
     }
 }
