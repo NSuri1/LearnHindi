@@ -12,24 +12,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openNumbersView(View v){
-        System.out.println("openNumbersView Function Called");
-        setContentView(R.layout.activity_numbers);
-    }
-
-    public void openDaysView(View v){
-        System.out.println("openDaysView Function Called");
-    }
-
-    public void openRelationshipsView(View v){
-        System.out.println("openRelationships Function Called");
-    }
-
-    public void openFruitsAndVegetablesView(View v){
-        System.out.println("openFruitsandVegetablesView Function Called");
-    }
-
-    public void openPronounsView(View v){
-        System.out.println("openPronounsView Function Called");
+    public void changeView(View v){
+        switch (v.getId()){
+            case R.id.numbers_category:
+                System.out.println("openNumbersView Function Called");
+                break;
+            case R.id.days_category:
+                System.out.println("openDaysView Function Called");
+                break;
+            case R.id.relationships_category:
+                System.out.println("openRelationships Function Called");
+                break;
+            case R.id.fruits_and_vegetables_category:
+                System.out.println("openFruitsandVegetablesView Function Called");
+                break;
+            case R.id.pronouns_category:
+                System.out.println("openPronounsView Function Called");
+                break;
+        }
     }
 }
