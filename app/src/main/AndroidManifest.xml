@@ -15,11 +15,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Numbers" />
-        <activity android:name=".Days" />
-        <activity android:name=".Relationships" />
-        <activity android:name=".FruitsAndVegetables" />
-        <activity android:name=".Pronouns"></activity>
+        <activity
+            android:name=".Numbers"
+            android:label="@string/numbers" />
+        <activity
+            android:name=".Days"
+            android:label="@string/days" />
+        <activity
+            android:name=".Relationships"
+            android:label="@string/relationships" />
+        <activity
+            android:name=".FruitsAndVegetables"
+            android:label="@string/fruits_and_vegetables" />
+        <activity
+            android:name=".Pronouns"
+            android:label="@string/pronouns" />
+        <activity
+            android:name=".AnimalsAndInsects"
+            android:label="@string/animals_and_insects"/>
+        <activity
+            android:name=".BodyParts"
+            android:label="@string/body_parts"/>
+        <activity
+            android:name=".ConditionAndColors"
+            android:label="@string/condition_and_color"/>
+        <activity
+            android:name=".Government"
+            android:label="@string/government_and_business"/>
+        <activity
+            android:name=".Nature"
+            android:label="@string/nature"/>
+        <activity
+            android:name=".Miscellaneous"
+            android:label="@string/miscellaneous"/>
+        <activity
+            android:name=".Verbs"
+            android:label="@string/verbs"></activity>
     </application>
 
 </manifest>

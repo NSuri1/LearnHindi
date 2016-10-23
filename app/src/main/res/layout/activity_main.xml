@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.suriosity.learnhindi.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         style="@style/border"/>
 
     <TextView
-        android:id="@+id/numbers_category"
+        android:id="@+id/animals_and_insects_category"
         style="@style/categories"
-        android:text="@string/numbers"
-        android:onClick="changeView"/>
+        android:text="@string/animals_and_insects" />
 
     <TextView
         style="@style/border"/>
 
     <TextView
-        android:id="@+id/days_category"
+        android:id="@+id/body_parts_category"
         style="@style/categories"
-        android:text="@string/days"
-        android:onClick="changeView"/>
+        android:text="@string/body_parts" />
 
     <TextView
         style="@style/border"/>
 
     <TextView
-        android:id="@+id/relationships_category"
+        android:id="@+id/condition_and_color_category"
         style="@style/categories"
-        android:text="@string/relationships"
-        android:onClick="changeView"/>
+        android:text="@string/condition_and_color" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/government_and_business_category"
+        style="@style/categories"
+        android:text="@string/government_and_business" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/nature_category"
+        style="@style/categories"
+        android:text="@string/nature" />
 
     <TextView
         style="@style/border"/>
@@ -39,8 +55,15 @@
     <TextView
         android:id="@+id/fruits_and_vegetables_category"
         style="@style/categories"
-        android:text="@string/fruits_and_vegetables"
-        android:onClick="changeView"/>
+        android:text="@string/fruits_and_vegetables" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/numbers_category"
+        style="@style/categories"
+        android:text="@string/numbers" />
 
     <TextView
         style="@style/border"/>
@@ -48,9 +71,41 @@
     <TextView
         android:id="@+id/pronouns_category"
         style="@style/categories"
-        android:text="@string/pronouns"
-        android:onClick="changeView"/>
+        android:text="@string/pronouns" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/verbs_category"
+        style="@style/categories"
+        android:text="@string/verbs" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/relationships_category"
+        style="@style/categories"
+        android:text="@string/relationships" />
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/days_category"
+        style="@style/categories"
+        android:text="@string/days" />
+
+    <TextView
+        style="@style/border"/>
+
+    <TextView
+        android:id="@+id/miscellaneous_category"
+        style="@style/categories"
+        android:text="@string/miscellaneous" />
+
     <TextView
         style="@style/border"/>
 
 </LinearLayout>
+</ScrollView>

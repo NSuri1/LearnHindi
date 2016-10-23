@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Learn Hindi</string>
-    <string name="days">Days</string>
-    <string name="numbers">Numbers</string>
-    <string name="relationships">Relationships</string>
+    <string name="animals_and_insects">Animals and Insects</string>
+    <string name="body_parts">Body Parts</string>
+    <string name="condition_and_color">Condition and Color</string>
+    <string name="government_and_business">Government and Business</string>
+    <string name="nature">Nature and Home</string>
     <string name="fruits_and_vegetables">Fruits and Vegetables</string>
+    <string name="numbers">Numbers</string>
     <string name="pronouns">Pronouns</string>
-
+    <string name="verbs">Verbs</string>
+    <string name="relationships">Relationships</string>
+    <string name="days">Days</string>
+    <string name="miscellaneous">Miscellaneous</string>
 </resources>
