@@ -22,4 +22,9 @@
         <item name="android:background">#000</item>
     </style>
 
+    <style name="words">
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>
