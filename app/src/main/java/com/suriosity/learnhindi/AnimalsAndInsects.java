@@ -10,15 +10,15 @@ import java.util.Arrays;
 
 public class AnimalsAndInsects extends AppCompatActivity {
 
-    ArrayList<String> englishWords = new ArrayList<String>(Arrays.asList("meat", "fat", "fish",
-            "chicken", "egg", "cow", "buffalo", "milk", "horns",
-            "tail", "goat", "dog", "snake", "monkey", "mosquito",
-            "ant", "spider"));
+    ArrayList<String> englishWords = new ArrayList<String>(Arrays.asList("Meat", "Fat", "Fish",
+            "Chicken", "Egg", "Cow", "Buffalo", "Milk", "Horns",
+            "Tail", "Goat", "Dog", "Snake", "Monkey", "Mosquito",
+            "Ant", "Spider"));
 
-    ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("gosht (गोश्त)", "charbi (चर्बी)", "machhli (मछली)",
-            "murgi (मुर्गी)", "anda (अण्डा)", "gae (गाय)", "bhaens (भैंस)", "dudh (दूध)", "seeng (सींग)",
-            "dum (दुम)", "bakri (बकरी)", "kutta (कुत्ता)", "saanp (साँप)", "bandar (बन्दर)", "machchhar (मच्छर)",
-            "chinti (चींटी)", "makri (मकडी)"));
+    ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("Gosht (गोश्त)", "Charbi (चर्बी)", "Machhli (मछली)",
+            "Murgi (मुर्गी)", "Anda (अण्डा)", "Gae (गाय)", "Bhaens (भैंस)", "Dudh (दूध)", "Seeng (सींग)",
+            "Dum (दुम)", "Bakri (बकरी)", "Kutta (कुत्ता)", "Saanp (साँप)", "Bandar (बन्दर)", "Machchhar (मच्छर)",
+            "Chinti (चींटी)", "Makri (मकडी)"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,13 +31,14 @@ public class AnimalsAndInsects extends AppCompatActivity {
 
 
     public void createViews(){
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.numbers_root_view);
+        LinearLayout rootView = (LinearLayout) findViewById(R.id.animals_and_insects_root_view);
         TextView wordView = new TextView(this);
+        wordView.setPadding(16, 16, 16, 16);
+        wordView.setTextSize(20);
 
         wordView.setText(englishWords.get(0));
 
         rootView.addView(wordView);
-
 
     }
 
