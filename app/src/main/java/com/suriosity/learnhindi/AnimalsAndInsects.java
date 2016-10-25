@@ -32,13 +32,19 @@ public class AnimalsAndInsects extends AppCompatActivity {
 
     public void createViews(){
         LinearLayout rootView = (LinearLayout) findViewById(R.id.animals_and_insects_root_view);
-        TextView wordView = new TextView(this);
-        wordView.setPadding(16, 16, 16, 16);
-        wordView.setTextSize(20);
+        TextView wordView;
 
-        wordView.setText(englishWords.get(0));
+        for(int i=0; i<englishWords.size(); i++){
+            wordView = new TextView(this);
+            wordView.setPadding(24, 24, 24, 24);
+            wordView.setTextSize(20);
+            wordView.setText(englishWords.get(i));
+            rootView.addView(wordView);
+        }
 
-        rootView.addView(wordView);
+
+
+
 
     }
 
