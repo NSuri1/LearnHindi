@@ -10,15 +10,13 @@ import java.util.Arrays;
 
 public class AnimalsAndInsects extends AppCompatActivity {
 
-    ArrayList<String> englishWords = new ArrayList<String>(Arrays.asList("Meat", "Fat", "Fish",
-            "Chicken", "Egg", "Cow", "Buffalo", "Milk", "Horns",
-            "Tail", "Goat", "Dog", "Snake", "Monkey", "Mosquito",
-            "Ant", "Spider"));
+    private ArrayList<String> englishWords = new ArrayList<String>(Arrays.asList("Cat", "Sheep", "Camel",
+            "Deer", "Elephant", "Horse", "Buffalo", "Goat", "Rabbit",
+            "Rat", "Lamb", "Lion", "Tiger", "Squirrel"));
 
-    ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("Gosht (गोश्त)", "Charbi (चर्बी)", "Machhli (मछली)",
-            "Murgi (मुर्गी)", "Anda (अण्डा)", "Gae (गाय)", "Bhaens (भैंस)", "Dudh (दूध)", "Seeng (सींग)",
-            "Dum (दुम)", "Bakri (बकरी)", "Kutta (कुत्ता)", "Saanp (साँप)", "Bandar (बन्दर)", "Machchhar (मच्छर)",
-            "Chinti (चींटी)", "Makri (मकडी)"));
+    private ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("Billi (बिल्ली)", "Bhed (भेड्)", "Oont (ऊँट)",
+            "Hiran (हिरन्)", "Hathi (हाथी)", "Ghoda (घोड़ा)", "Bhains (भैंस)", "Bakri (बकरी)", "Khargosh (खरगोश्)",
+            "Chuhaa (चूहा)", "Memanaa (मेमना)", "Sinh (सिंह्)", "Sher (शेर्)", "Gilahari (गिलहरी)"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
