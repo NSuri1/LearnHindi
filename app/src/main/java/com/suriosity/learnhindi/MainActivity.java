@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //View Variables
         final TextView animalsAndInsectsView = (TextView) findViewById(R.id.animals_and_insects_category);
         final TextView bodyPartsView = (TextView) findViewById(R.id.body_parts_category);
         final TextView conditionAndColorView = (TextView) findViewById(R.id.condition_and_color_category);
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView daysView = (TextView) findViewById(R.id.days_category);
         final TextView miscellaneousView = (TextView) findViewById(R.id.miscellaneous_category);
 
+        //Set onClickListener for actions when View Tapped on
         animalsAndInsectsView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -126,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
     public void changeView(int id) {
         Intent i;
 
+        //Receives view Id of view tapped and opens appropriate activity
         switch (id) {
             case R.id.animals_and_insects_category:
                 i = new Intent(this, AnimalsAndInsects.class);

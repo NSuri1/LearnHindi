@@ -10,7 +10,9 @@ import java.util.Arrays;
 
 public class AnimalsAndInsects extends AppCompatActivity {
 
-    private ArrayList<String> englishWords = new ArrayList<String>(Arrays.asList("Cat", "Sheep", "Camel",
+    //ArrayList to hold words (not array so can change size
+
+    private ArrayList<String> defaultWords = new ArrayList<String>(Arrays.asList("Cat", "Sheep", "Camel",
             "Deer", "Elephant", "Horse", "Buffalo", "Goat", "Rabbit",
             "Rat", "Lamb", "Lion", "Tiger", "Squirrel"));
 
@@ -30,7 +32,17 @@ public class AnimalsAndInsects extends AppCompatActivity {
 
     public void createViews(){
 
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, englishWords);
+        //Create Words ArrayList since ArrayAdapter only takes in one array parameter
+        ArrayList<Words> wordsArrayList = new ArrayList<Words>();
+
+        //Fill array with english word and hindi translation by creating new word objects
+        for(int i = 0; i < defaultWords.size() && i < hindiTranslation.size(); i++){
+            wordsArrayList.add(new Words(defaultWords.get(i), hindiTranslation.get(i)));
+        }
+
+        //ArrayAdapter and ListView used so that not a lot of memory is used to create all textviews when not needed
+
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, R.layout.layout_list, wordsArrayList);
 
         ListView listView = (ListView) findViewById(R.id.animals_and_insects_root_view);
 
