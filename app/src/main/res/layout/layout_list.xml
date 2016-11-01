@@ -16,7 +16,7 @@
         tools:text="Billi"/>
 
     <TextView
-        android:id="@+id/english_word"
+        android:id="@+id/default_word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Cat"/>

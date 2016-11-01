@@ -41,12 +41,13 @@ public class AnimalsAndInsects extends AppCompatActivity {
         }
 
         //ArrayAdapter and ListView used so that not a lot of memory is used to create all textviews when not needed
+        //Update** Using WordAdapter which extends ArrayAdapter and only has 2 parameters
 
-        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, R.layout.layout_list, wordsArrayList);
+        WordAdapter adapter = new WordAdapter(this, wordsArrayList);
 
         ListView listView = (ListView) findViewById(R.id.animals_and_insects_root_view);
 
-        listView.setAdapter(itemsAdapter);
+        listView.setAdapter(adapter);
 
 
     }
