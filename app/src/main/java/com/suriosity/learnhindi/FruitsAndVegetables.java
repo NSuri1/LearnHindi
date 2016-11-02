@@ -8,6 +8,6 @@ public class FruitsAndVegetables extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fruits_and_vegetables);
+        setContentView(R.layout.activity_translation);
     }
 }

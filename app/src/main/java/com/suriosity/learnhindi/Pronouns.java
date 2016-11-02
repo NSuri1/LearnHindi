@@ -8,6 +8,6 @@ public class Pronouns extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pronouns);
+        setContentView(R.layout.activity_translation);
     }
 }

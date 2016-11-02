@@ -1,6 +1,7 @@
 package com.suriosity.learnhindi;
 
 import android.app.Activity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,7 @@ public class WordAdapter extends ArrayAdapter<Words> {
 
         TextView hindiView = (TextView) listItem.findViewById(R.id.hindi_translation);
         hindiView.setText(currentWord.getHindi());
+        hindiView.setTextSize(20);
 
         TextView defaultTranslation = (TextView) listItem.findViewById(R.id.default_word);
         defaultTranslation.setText(currentWord.getDefaultWord());

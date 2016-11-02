@@ -8,6 +8,6 @@ public class Nature extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nature);
+        setContentView(R.layout.activity_translation);
     }
 }

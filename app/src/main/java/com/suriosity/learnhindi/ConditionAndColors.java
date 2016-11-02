@@ -20,6 +20,6 @@ public class ConditionAndColors extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_condition_and_colors);
+        setContentView(R.layout.activity_translation);
     }
 }

@@ -2,7 +2,6 @@ package com.suriosity.learnhindi;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -23,7 +22,7 @@ public class AnimalsAndInsects extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animals_and_insects);
+        setContentView(R.layout.activity_translation);
 
         createViews();
 
@@ -45,7 +44,7 @@ public class AnimalsAndInsects extends AppCompatActivity {
 
         WordAdapter adapter = new WordAdapter(this, wordsArrayList);
 
-        ListView listView = (ListView) findViewById(R.id.animals_and_insects_root_view);
+        ListView listView = (ListView) findViewById(R.id.translation_root_view);
 
         listView.setAdapter(adapter);
 

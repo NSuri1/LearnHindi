@@ -25,6 +25,6 @@ public class BodyParts extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_body_parts);
+        setContentView(R.layout.activity_translation);
     }
 }
