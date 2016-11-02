@@ -15,7 +15,7 @@ public class Numbers extends AppCompatActivity {
                 "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen",
                 "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety", "Hundred", "One Hundred",
                 "One Thousand", "Hundred Thousand", "One Million", "Ten Million", "One Billion"));
-        private ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("kitne (कितने)", "Shunya (शून्य)",
+        private ArrayList<String> hindiTranslation = new ArrayList<String>(Arrays.asList("Kitne (कितने)", "Shunya (शून्य)",
                 "Ek (एक)", "Do (दो)", "Teen (तीन)", "Char (चार)", "Paanch (पांच)",
                 "Chheh (छः)", "Saat (सात)", "Aath (आठ)", "Nao (नौ)", "Das (दस)",
                 "Gyarah (ग्यारह)", "Barah (बारह)", "Terah (तेरह)", "Chaudah (चौदह)", "Pandrah (पंद्रह)",
