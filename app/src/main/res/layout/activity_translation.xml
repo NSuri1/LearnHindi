@@ -5,7 +5,6 @@
     android:id="@+id/translation_root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.suriosity.learnhindi.AnimalsAndInsects">
+    android:orientation="vertical">
 
 </ListView>
